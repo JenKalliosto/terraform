@@ -2,7 +2,7 @@
 
 # terraform - google cloud platform - cloudflare
 
-
+```
 export the info rows terraform requires:
 
 
@@ -32,6 +32,7 @@ cloudflare -> my profile -> api keys -> global api key
 
 the domain cloudflare -> overview 
 > export TF_VAR_cloudflare_zone=
+```
 
 ```
 terraform init
